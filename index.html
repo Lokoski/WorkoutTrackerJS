@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Workout Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h3>Workout Tracker</h3>
+        <div class="top-part">
+            <h4>Keep track of all workouts!</h4>
+        </div>
+
+        <form class="add-workouts">
+            <select name="week-days" id="days" class="select">
+                <option value="Monday">Monday</option>
+                <option value="Tuesday">Tuesday</option>
+                <option value="Wednesday">Wednesday</option>
+                <option value="Thursday">Thursday</option>
+                <option value="Friday">Friday</option>
+                <option value="Saturday">Saturday</option>
+                <option value="Sunday">Sunday</option>
+            </select>
+                <input type="text" placeholder="Enter Exercise Name" name="exercise">
+                <input type="number" min="1" placeholder="Enter Sets"  name="sets">
+                <input type="number" min="1" placeholder="# of Repetitions" name="reps">
+                <input type="number" min="1" placeholder="Enter Weight" name="weight">
+            <input type="submit" value="Add Workout"></input>
+        </form>
+        <div class="days">
+            <div class="daysOfWeek" id="mondayC">
+                <h5>Monday</h5>
+            </div>
+            <div class="daysOfWeek" id="tuesdayC">
+                <h5>Tuesday</h5>
+            </div>
+            <div class="daysOfWeek" id="wednesdayC">
+                <h5>Wednesday</h5>
+            </div>
+            <div class="daysOfWeek" id="thursdayC">
+                <h5>Thursday</h5>
+            </div>
+            <div class="daysOfWeek" id="fridayC">
+                <h5>Friday</h5>
+            </div>
+            <div class="daysOfWeek" id="saturdayC">
+                <h5>Saturday</h5>
+            </div>
+            <div class="daysOfWeek" id="sundayC">
+                <h5>Sunday</h5>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

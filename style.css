@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin:0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: flex-start;
+    background: center / cover no-repeat black;
+}
+
+html{
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    font-size: 2rem;
+    color: white;
+}
+
+.days{
+    display:flex;
+    justify-content: space-evenly;
+    max-width:100vw;
+}
+
+
+
+h4{
+    width:100vw;
+    padding: 0;
+    margin:0;
+}
+h5{
+    padding: 0;
+    margin:0;
+    font-size: 18px;
+    margin-bottom:10px
+}
+
+.top-part{
+    width:100vw;
+    display: grid;
+    align-items: center;
+    justify-content:center;
+    border-bottom: 1px solid red;
+    padding: 30px;
+}
+.add-workouts {
+    justify-content: center;
+    align-content: center;
+    max-width:100vw;
+    grid-template-columns: repeat(4, 110px);
+    margin:50px;
+  }
+  
+  .add-workouts input {
+    padding: 10px;
+    margin: 5px;
+    outline: 0;
+    border: 0;
+    border-radius: 100px;
+  }
+
+ select{
+    padding: 10px;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    border-bottom: 1px solid;
+    margin: 0 15px;
+  }
+
+  .innerContainer{
+      margin:0;
+      font-size: 16px;
+      color:red;
+  }
+
+  .innerContainer > p{
+      margin:1px;
+      color: rgb(20, 141, 141);
+  }
+
+  .innerContainer > h3{
+    padding: 0;
+    margin:0;
+    font-size: 18px;
+}
+
+.delete{
+    display: inline;
+    margin: 0;
+    padding:0;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    background:transparent;
+    color: white
+}
+
+#mondayC,#thursdayC,#sundayC{
+    height:30vh
+}
+
+
+  
